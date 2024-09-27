@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff; /* Основной фон — белый */
+    color: #333; /* Основной цвет текста — тёмно-серый для лучшей читаемости */
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background: #FF5733; /* Яркий оранжевый фон для заголовка */
+    color: #fff; /* Белый текст для контраста */
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #fff; /* Белая кнопка */
+    color: #FF5733; /* Оранжевый текст */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: 2px solid #FF5733; /* Оранжевая граница кнопки */
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background: #FF5733; /* Оранжевый фон при наведении */
+    color: #fff; /* Белый текст при наведении */
+}
+
+#services {
+    padding: 50px 0;
+    background-color: #fff; /* Белый фон для контраста с цветами заголовков и блоков */
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #FF5733; /* Оранжевый цвет заголовка */
+}
+
+.service-item {
+    margin-bottom: 30px;
+    color: #333; /* Тёмно-серый текст */
+}
+
+#cta {
+    background: #FF5733; /* Призыв к действию — оранжевый фон */
+    color: #fff; /* Белый текст */
+    padding: 50px 0;
+}
+
+#cta h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #fff; /* Фон футера — белый */
+    color: #FF5733; /* Оранжевый текст */
+    padding: 50px 0;
+    border-top: 2px solid #FF5733; /* Оранжевая верхняя граница футера */
+}
+
+footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333; /* Заголовки в футере — тёмно-серые */
+}
